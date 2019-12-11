@@ -32,8 +32,8 @@
 			<version>2.11</version>
 		</plugin>	
 	</plugins>
-  
   </build>
+  
   <distributionManagement>
          <repository>
             <id>release</id>
@@ -41,11 +41,15 @@
             <url>http://3.6.50.181:8081/repository/pro-1/</url>
         </repository>
    </distributionManagement> 	   
+   
    <dependencies>
-  	   <dependency>
+  	   
+	   <dependency>
   		   <groupId>javax.servlet</groupId>
   		   <artifactId>javax.servlet-api</artifactId>
      	   <version>3.0.1</version>
        </dependency>
+	
 	</dependencies>
+
 </project>
