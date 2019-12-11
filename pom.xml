@@ -41,13 +41,8 @@
             <url>http://3.6.50.181:8081/repository/pro-1/</url>
         </repository>
   
-         <repository>
-		    <id>snapshot></id>
-			<name>pro-snap</name>
-			<url>http://3.6.50.181:8081/repository/pro-snap/</url>
-         </repository>
-  </distributionManagement> 	   
-<dependencies>
+   </distributionManagement> 	   
+   <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>
   		<artifactId>javax.servlet-api</artifactId>
