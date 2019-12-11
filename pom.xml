@@ -34,4 +34,23 @@
 	</plugins>
   
   </build>
+  <distributionManagement>
+         <repository>
+            <id>release</id>
+            <name>release</name>
+            <url>http://3.6.50.181:8081/repository/pro-1/</url>
+        </repository>
+   </distributionManagement>
+   <distributionManagement>
+         <repository>
+		    <id>snapshot></id>
+			<name>pro-snap</name>
+			<url>http://3.6.50.181:8081/repository/pro-snap/</url>
+			</repository>
+  <dependencies>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>javax.servlet-api</artifactId>
+  		<version>3.0.1</version>
+
 </project>
