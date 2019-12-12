@@ -36,8 +36,8 @@
   
   <distributionManagement>
          <repository>
-            <id>release</id>
-            <name>release</name>
+            <id>pro-1</id>
+            <name>pro-1</name>
             <url>http://3.6.50.181:8081/repository/pro-1/</url>
         </repository>
    </distributionManagement> 	   
